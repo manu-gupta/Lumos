@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/editText4"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:background="#FF484848"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="9dp"
+        android:text="Login?"
+        android:textColor="#ffffff"
+        android:textSize="27sp"
+        tools:backgroundTint="#484848" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="199dp"
+        android:background="#FF484848"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="9dp"
+        android:text="Register."
+        android:textColor="#ffffff"
+        android:textSize="27sp" />
+
+</RelativeLayout>
