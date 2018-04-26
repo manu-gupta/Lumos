@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
 		// Context of the app under test.
 		Context appContext = InstrumentationRegistry.getTargetContext();
 
-		assertEquals("com.taishi.foursquareapiforandroid", appContext.getPackageName());
+		assertEquals("com.manu.lumos", appContext.getPackageName());
 	}
 }

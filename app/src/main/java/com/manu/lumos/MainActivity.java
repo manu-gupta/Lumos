@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 	String Client_ID = "3W4H2CLZFQF5BGFUC1ZNTRJ4FTL54UZUCVGMXNMTRNU2APZG";
 	String Client_Secret = "NLHCLRXGMNR0I1RO22TTFQ03331OIBJUQH4PJQTLB13AGOJ4";
 	String apiVersion = "20180421";
-	String geoLocation = "40.7,-72";
+	String geoLocation = "";
 	String query = "cafe";
 	String Loc;
 

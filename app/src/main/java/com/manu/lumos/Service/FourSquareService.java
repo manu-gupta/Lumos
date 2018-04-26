@@ -8,13 +8,6 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 import com.manu.lumos.Model.Explore.Explore;
 
-
-/**
- * Created by yamasakitaishi on 2016/09/13.
- */
-
-
-
 public interface FourSquareService {
 
 	@GET("venues/explore/")
